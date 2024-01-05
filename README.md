@@ -38,9 +38,12 @@ As another example, these two playlists did not have common tracks.
 The script will first ask for a user's client id and secret and obtain an access token. Then, it will obtain the IDs of the two playlists which are to be compared. For each playlist, the name and number of tracks will be obtained via an HTTP GET request using the Python requests library and the previously obtained access token. A maximum of 50 playlist tracks will be returned for each request, so multiple requests are needed to access all songs. A for-loop is used to call a helper function that will offset into the playlist further and further until all tracks are obtained. After all the names of each playlist's tracks have been obtained in two sets, the duplicates are simply the songs contained in their intersection. 
 
 # Conclusion 
-My personal two playlists that inspired me to write this script had 102 shared songs, which would have probably taken over 2 hours to remove by hand. Although I spent over two hours working on this script, it was a great oppurtunity to learn more about Python libraries and working with APIs, that I am very happy to have come accross. I have blurred out my Client ID, and Client Secret, but can share them or provide assitance on obtaining your own to anyone who is struggling to use the script. 
+My personal two playlists that inspired me to write this script had 102 shared songs, which would have probably taken over 2 hours to remove by hand. Although I spent over two hours working on this script, it was a great oppurtunity to learn more about Python libraries and working with APIs, that I am very happy to have come accross. 
 
 ![image](https://github.com/macaroonforu/Spotify-Duplicate-Playlist-Checker/assets/121368271/94238f1c-f4fa-42b1-8c13-c9528309cd80)
+
+I have blurred out my Client ID, and Client Secret as the [Spotify Developer Terms](https://developer.spotify.com/terms#section-vi-access-usage-and-quotas) state that security codes should not be shared, but I can provide assistance with obtaining them to anyone who would need it. 
+
 
 # Credits 
 [This article](https://alpargur.medium.com/scrape-spotifys-api-in-within-20-mins-611885897851) and the code snippets it contained helped me get started.
