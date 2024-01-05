@@ -42,7 +42,7 @@ My personal two playlists that inspired me to write this script had 102 shared s
 
 ![image](https://github.com/macaroonforu/Spotify-Duplicate-Playlist-Checker/assets/121368271/94238f1c-f4fa-42b1-8c13-c9528309cd80)
 
-I have blurred out my Client ID, and Client Secret as the [Spotify Developer Terms](https://developer.spotify.com/terms#section-vi-access-usage-and-quotas) state that security codes should not be shared, but I can provide assistance with obtaining them to anyone who would need it. 
+I have blurred out my Client ID, and Client Secret, as the [Spotify Developer Terms](https://developer.spotify.com/terms#section-vi-access-usage-and-quotas) state that security codes should not be shared, but I can provide assistance with obtaining them to anyone who would need it. 
 
 
 # Credits 
