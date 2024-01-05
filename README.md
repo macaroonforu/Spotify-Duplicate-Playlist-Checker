@@ -1,5 +1,5 @@
 <div  align=center>
-	<h1>Duplicate Checker for Spotify Playlists</h1>
+	<h1>Determine shared songs between two Spotify playlists</h1>
 	<br>
    <img src = "https://github.com/macaroonforu/Spotify-Duplicate-Playlist-Checker/assets/121368271/0fac243e-58bd-486f-827c-7905c40c564f" height="40px" width="40px">
    <img src = "https://github.com/macaroonforu/Spotify-Duplicate-Playlist-Checker/assets/121368271/9f32097b-f8bb-46ff-9397-9e1bde9c632e" height="40px" width="40px">
