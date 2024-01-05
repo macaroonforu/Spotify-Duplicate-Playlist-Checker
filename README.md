@@ -7,7 +7,7 @@
 </div>
 
 # Introduction 
-In the spirit of decluttering for a more organized New Year, I was seeking to reorganize my playlists on Spotify. One problem I faced was that I had over time taken many songs of my favourite genre and stored them in many separate small, random playlists, which I sought to amalglamate into one larger cohesive playlist. 
+In the spirit of decluttering for a more organized New Year, I was seeking to reorganize my playlists on Spotify. One problem I faced was that I had over time taken many songs of my favourite genre and stored them in many separate small, random playlists, which I sought to amalgamate into one larger cohesive playlist. 
 
 Since I had over 1000 songs, I decided to have two playlists: one for my old songs before 2021, and one for my new songs discovered after 2021, but after I had compiled all of my newer songs into a "master" playlist, I had noticed that there were a lot of repeats between songs on that playlist and songs on my old playlist, which I wanted to remove, so that each playlist would contain unique songs. 
 
