@@ -22,19 +22,23 @@ In order to use the Spotify Web API, I first created a [developer profile](https
 Next, to test the script, I found two 2000's throwback playlists because I thought it would make sense for them to have shared tracks. 
 
 ![image](https://github.com/macaroonforu/Spotify-Duplicate-Playlist-Checker/assets/121368271/74f1a948-b322-45f3-a49c-acbd40bdbbc1)
-
 ![image](https://github.com/macaroonforu/Spotify-Duplicate-Playlist-Checker/assets/121368271/b7742427-6aeb-4fb3-a2c8-1a458f0948b8)
 
 
-This is how the script performs on the given playlists. 
+This is how the script performed on the given playlists. 
 
-![image](https://github.com/macaroonforu/Spotify-Duplicate-Playlist-Checker/assets/121368271/62c96e00-155d-4d33-b873-419bc05b2773)
+![294568934-62c96e00-155d-4d33-b873-419bc05b2773](https://github.com/macaroonforu/Spotify-Duplicate-Playlist-Checker/assets/121368271/eaa99870-0dc9-446a-8c79-56d1ec6e8e57)
+
+As another example, these two playlists did not have common tracks. 
+
+![image](https://github.com/macaroonforu/Spotify-Duplicate-Playlist-Checker/assets/121368271/e5ac1e72-4a61-473b-95c6-418dc9f6c5d6)
+
 
 # Explanation 
 The script will first ask for a user's client id and secret and obtain an access token. Then, it will obtain the IDs of the two playlists which are to be compared. For each playlist, the name and number of tracks will be obtained via an HTTP GET request using the Python requests library and the previously obtained access token. A maximum of 50 playlist tracks will be returned for each request, so multiple requests are needed to access all songs. A for-loop is used to call a helper function that will offset into the playlist as further and further until all tracks are obtained. After all the names of each playlist's tracks have been obtained in two sets, the duplicates are simply the songs contained in their intersection. 
 
 # Conclusion 
-My personal two playlists that inspired me to write this script had 102 shared songs, which would have probably taken over 2 hours to remove by hand. Although I spent over two hours working on this script, it was a great oppurtunity to learn more about Python libraries and working with APIs, that I am very happy to have come accross. 
+My personal two playlists that inspired me to write this script had 102 shared songs, which would have probably taken over 2 hours to remove by hand. Although I spent over two hours working on this script, it was a great oppurtunity to learn more about Python libraries and working with APIs, that I am very happy to have come accross. I have blurred out my Client ID, and Client Secret, but can share them or provide assitance on obtaining your own to anyone who is struggling to use the script. 
 
 ![image](https://github.com/macaroonforu/Spotify-Duplicate-Playlist-Checker/assets/121368271/94238f1c-f4fa-42b1-8c13-c9528309cd80)
 
