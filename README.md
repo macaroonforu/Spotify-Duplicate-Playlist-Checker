@@ -7,9 +7,9 @@
 </div>
 
 # Introduction 
-In the spirit of decluttering for a more organized New Year, I was seeking to reorganize my playlists on Spotify. One problem I faced was that I had over time taken many songs of my favourite genre and stored them in many separate small, random playlists, which I sought to amalgamate into one larger cohesive playlist. 
+In the spirit of decluttering for a more organized New Year, I was seeking to reorganize my playlists on Spotify. One problem I faced was that I had over time taken many songs from my favourite genres and stored them in many separate small, random playlists, which I sought to amalgamate into larger cohesive playlists. 
 
-Since I had over 1000 songs, I decided to have two playlists: one for my old songs before 2021, and one for my new songs discovered after 2021, but after I had compiled all of my newer songs into a "master" playlist, I had noticed that there were a lot of repeats between songs on that playlist and songs on my old playlist, which I wanted to remove, so that each playlist would contain unique songs. 
+For one specific genre, I had over 1000 songs, so I decided to have two playlists: one for my older songs, and one for my newer songs, but after I had compiled all of my newer songs into a "master" playlist, I had noticed that there were a lot of repeats between songs on that playlist and songs on my playlist for the older songs, which I wanted to remove, so that each playlist would contain unique songs. 
 
 I wasn't looking forward to solving this problem: if each playlist had around 500 songs, was I supposed to compare each and every one by hand? I realized having a script take care of this would result in much more happiness. 
 
@@ -38,7 +38,7 @@ As another example, these two playlists did not have common tracks.
 The script will first ask for a user's client id and secret and obtain an access token. Then, it will obtain the IDs of the two playlists which are to be compared. For each playlist, the name and number of tracks will be obtained via an HTTP GET request using the Python requests library and the previously obtained access token. A maximum of 50 playlist tracks will be returned for each request, so multiple requests are needed to access all songs. A for-loop is used to call a helper function that will offset into the playlist further and further until all tracks are obtained. After all the names of each playlist's tracks have been obtained in two sets, the duplicates are simply the songs contained in their intersection. 
 
 # Conclusion 
-My personal two playlists that inspired me to write this script had 102 shared songs, which would have probably taken over 2 hours to remove by hand. Although I spent over two hours working on this script, it was a great opportunity to learn more about Python libraries and working with APIs, that I am very happy to have come accross. 
+My personal two playlists that inspired me to write this script had 102 shared songs, which would have probably taken over 2 hours to identify then remove by hand. Although I spent over two hours working on this script, it was a great opportunity to learn more about Python libraries and working with APIs, that I am very happy to have come accross. 
 
 ![image](https://github.com/macaroonforu/Spotify-Duplicate-Playlist-Checker/assets/121368271/94238f1c-f4fa-42b1-8c13-c9528309cd80)
 
